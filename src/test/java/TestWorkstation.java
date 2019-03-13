@@ -13,7 +13,7 @@ public class TestWorkstation {
         capabilities.setCapability("platform","Mac");
 
         RemoteWebDriver driver = new RemoteWebDriver(new URL("http://localhost:4622/wd/hub"),capabilities);
-        driver.get("MicroStrategy Workstation");
+        driver.get("/Applications/workstation-mac-11.1.1.10701.app");
 
 //        String documentAXpath = "/AXApplication[@AXTitle='MicroStrategy Workstation']";
 //        driver.findElement(By.xpath(documentAXpath));
